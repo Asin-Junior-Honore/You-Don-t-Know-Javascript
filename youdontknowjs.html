@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projects</title>
+    <link rel="stylesheet" media="screen(max-width:1530px)" href="css/phone.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Rubik", sans-serif;
+      
+    }
+    header {
+      display: flex;
+      justify-content: center;
+      height: 7vh;
+      align-items: center;
+      background-color: #221e1e;
+    }
+
+    header ul {
+      display: flex;
+    }
+    header li {
+      list-style: none;
+    }
+    header a {
+      margin: 1rem;
+      text-decoration: none;
+      font-size: 1.22rem;
+      color: white;
+    }
+    #h4 {
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 27px;
+    }
+    h3 {
+      font-size: 27px;
+    }
+
+    .container {
+      height: 217px;
+      width: 490px;
+      display: flex;
+    }
+    #text {
+      flex-direction: column;
+      padding: 2px 28px;
+      background-color: #e1dcdc;
+      text-align: right;
+      justify-content: space-around;
+      height: 22vh;
+      border-radius: 13px 13px 0px 0px;
+    }
+
+    #test2 {
+      text-align: right;
+      flex-direction: column;
+      padding: 4px 28px;
+      height: 25vh;
+      justify-content: center;
+      font-size: 4.2rem;
+    }
+    #text3 {
+      flex-direction: column;
+      justify-content: center;
+      text-align: right;
+      font-size: 9.5rem;
+      height: 43vh;
+      background-color: yellow;
+      padding: 4px 28px;
+      border-radius: 0px 0px 13px 13px;
+    }
+    .main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    #rap1 {
+      border: 1px solid;
+      margin: 13px 120px;
+      height: fit-content;
+      width: fit-content;
+      border-radius: 10px;
+    }
+  button:hover,#btn:hover{
+      color: red;
+      transition: all 0.5s ease 0s;
+      background-color: black;
+      border-radius: 5px;
+    }
+    .content {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 55vh;
+      justify-content: center;
+      margin: 70px 103px;
+      width: 85%;
+      font-size: 1.55rem;
+    }
+    button {
+      width: 40%;
+      height: 30px;
+      border-radius: 4px;
+      background-color: orangered;
+      color: white;
+    }
+    footer {
+      margin-top: 1.5rem;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+      height: 18vh;
+      background-color: black;
+      color: white;
+    }
+    footer p {
+      margin-top: 3rem;
+      font-size: 24px;
+    }
+    #btn {
+      width: 40%;
+      height: 30px;
+      border-radius: 7px;
+      background-color: orangered;
+      color: white;
+    }
+    button,#btn{
+      cursor: pointer;
+    }
+    
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">The book series</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">The Author</a></li>
+          <li><a href="#">Free resoures</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h4 id="h4">You dont know Javascript</h4>
+    <div class="main">
+      <div id="rap1">
+        <div class="container" id="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing <br />elit
+            Dolorum id archi tecto iste voluptate! Iuretry <br />adsaepe veniam
+            nulla provident officia nemo sunty <br />
+            respectia lobintsrff
+          </p>
+          <h3>ASIN HONORE</h3>
+        </div>
+        <div class="container" id="test2">
+          <p>COMPLETE <br />SERIES</p>
+        </div>
+        <div class="container" id="text3"><h1>JS</h1></div>
+      </div>
+
+      <div id="rap2">
+        <div class="content">
+          <p>Don't just drift through javascript.</p>
+          <br />
+          <br />
+          <p>Understand how javascript works</p>
+          <br />
+          <br />
+          <p>Start your journey through the bumpy side of javascript</p>
+          <br />
+          <button>ORDER YOUR COPY NOW</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>The first ebook in the book series is absolutely free.</p>
+      <br />
+      <button id="btn">FIND OUT MORE ABOUT THIS OFFER</button>
+    </footer>
+  </body>
+</html>
