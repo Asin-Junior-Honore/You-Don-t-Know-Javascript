@@ -6,7 +6,8 @@ This project is a revival of one of my older projects, built with HTML and SCSS.
 "You Don't Know Javascript" is a simple webpage featuring information about a book series on learning JavaScript. The project includes a navigation bar, sections highlighting different aspects of the book series, and a footer promoting a free ebook offer.
 
 ## Preview
-![Project Preview](preview.png)
+![Project Preview](![youdontknowjs](https://github.com/Asin-Junior-Honore/You-Don-t-Know-Javascript/assets/135389589/f3bc4244-9acc-4431-bb47-8f40f358a386)
+)
 
 ## Technologies Used
 - HTML
